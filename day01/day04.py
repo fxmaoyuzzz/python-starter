@@ -47,6 +47,57 @@ def list_eg():
     for index in list_2:
         print(index)
 
+    # 追加元素
+    list_2.append("add")
+    print(list_2)
+    # 指定位置插入元素
+    list_2.insert(4, "insert")  # 输出：['name', 'age', 'sex', 'add', 'insert']
+    print(list_2)
+
+    list_2.insert(2, "index")  # 输出：['name', 'age', 'index', 'sex', 'add', 'insert']
+    print(list_2)
+
+    # 列表的append方法向列表中追加元素，将元素添加到列表的末尾；
+    # 使用insert方法向列表中插入元素，而插入则是在指定的位置添加新元素（并不是覆盖原有位置上的元素，而是将插入位置及后面的元素后移一位）
+
+    # 删除元素
+    list_2.append("name")
+    list_2.insert(3, "name")
+    print("删除")
+    print(list_2)
+    list_2.remove("name")  # 如果所删除的元素不存在会报ValueError: list.remove(x): x not in list
+    print(list_2)  # 如果列表中有多个值为 name 的元素，默认删除第一个
+
+    list_2.pop()  # pop方法默认删除列表中的最后一个元素
+    print(list_2)
+
+    list_2.pop(2)  # pop方法也可以指定所删除的位置，但如果超出索引长度会报IndexError: pop index out of range
+    print(list_2)
+
+    # del关键字后面跟要删除的元素，这种做法跟使用pop方法指定索引删除元素没有实质性的区别，
+    # 但pop会返回删除的元素，del在性能上略优，因为del对应的底层字节码指令是DELETE_SUBSCR，而pop对应的底层字节码指令是CALL_METHOD和POP_TOP
+    print('del')
+    del list_2[3]
+    print(list_2)
+
+    print(list_4)
+    list_4.clear()  # 清空列表元素
+    print(list_4)
+
+    # 索引元素
+    print(list_2.index("sex"))  # index方法可以查找某个元素在列表中的索引位置，如果找不到指定的元素，index方法会引发ValueError: 'sex1' is not in list
+
+    # 排序
+    list_2.sort()
+    print(list_2)  # 输出：['age', 'index', 'insert', 'sex']
+
+    # 反转
+    list_2.reverse()
+    print(list_2)  # 输出：['sex', 'insert', 'index', 'age']
+
+    #  嵌套列表
+    scores = [[95, 83, 92], [80, 75, 82], [92, 97, 90], [80, 78, 69], [65, 66, 89]]
+    print(scores)
 
 if __name__ == '__main__':
     list_eg()
