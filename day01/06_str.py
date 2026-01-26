@@ -4,7 +4,7 @@
 # @Time    : 2026/1/23
 # @Author  : fxmaoyuzzz
 # @Software: PyCharm
-# @File    : day06.py
+# @File    : 06_str.py
 
 
 # 字符串

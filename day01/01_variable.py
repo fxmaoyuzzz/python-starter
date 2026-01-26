@@ -4,7 +4,7 @@
 # @Time    : 2026/1/22
 # @Author  : fxmaoyuzzz
 # @Software: PyCharm
-# @File    : day01.py
+# @File    : 01_variable.py
 
 
 # 变量

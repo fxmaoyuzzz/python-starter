@@ -4,7 +4,7 @@
 # @Time    : 2026/1/23
 # @Author  : fxmaoyuzzz
 # @Software: PyCharm
-# @File    : day04.py
+# @File    : 04_list.py
 
 
 # list：列表是由一系元素按特定顺序构成的数据序列，可重复

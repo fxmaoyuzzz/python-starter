@@ -4,7 +4,7 @@
 # @Time    : 2026/1/23
 # @Author  : fxmaoyuzzz
 # @Software: PyCharm
-# @File    : day02.py
+# @File    : 02_operator.py
 
 # 运算符
 

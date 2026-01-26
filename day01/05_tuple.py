@@ -4,7 +4,7 @@
 # @Time    : 2026/1/23
 # @Author  : fxmaoyuzzz
 # @Software: PyCharm
-# @File    : day05.py
+# @File    : 05_tuple.py
 
 
 #  元组

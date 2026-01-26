@@ -4,7 +4,7 @@
 # @Time    : 2026/1/23
 # @Author  : fxmaoyuzzz
 # @Software: PyCharm
-# @File    : day08.py
+# @File    : 08_dict.py
 
 
 # 字典
